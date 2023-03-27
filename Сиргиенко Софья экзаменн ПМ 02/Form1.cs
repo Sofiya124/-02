@@ -57,6 +57,12 @@ namespace Сиргиенко_Софья_экзаменн_ПМ_02
                 else if (!radioButton1.Checked && !radioButton2.Checked || !checkBox1.Checked && !checkBox2.Checked)
                 {
                     MessageBox.Show("Введите все данные!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
+                else if (!radioButton1.Checked && !radioButton2.Checked || checkBox1.Checked && checkBox2.Checked)
+                {
+                    MessageBox.Show("Введите все данные!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
                 }
 
                 else
